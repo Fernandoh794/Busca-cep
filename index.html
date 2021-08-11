@@ -11,46 +11,31 @@
 
 <body>
     <div class="cadastro">
-        <h3><strong>Cadastro</strong></h3>
+        <h3><strong>Consultar CEP</strong></h3>
     </div>
-    <section class="tudo">
-        <div class="linha1-cadastro">
-            <div>
-                <form>
-
-                    <h3>Nome</h3>
-                    <input class="nome" type="text" name="Nome">
-                </form>
-            </div>
-
-            <div>
-                <form>
-                    <h3>Email</h3>
-                    <input class="email" type="email" name="email">
-                </form>
-            </div>
-
-
-
+    <section class="section">
+        
 
         </div>
         <div class="segunda-linha">
             <div>
                 <form>
-                    <h3>CEP:</h3>
-                    <input class="cep" type="text" name="cep">
+                    
+                    <label for="cep">CEP</label>
+                    <input class="cep" type="text" name="cep" maxlength="9" id="cep">
+                    
                 </form>
             </div>
             <div>
                 <form>
-                    <h3>Rua:</h3>
-                    <input type="text" name="rua">
+                    <label for="logradouro">logradouro</label>
+                    <input type="text" name="rua" id="logradouro">
                 </form>
             </div>
             <div>
                 <form>
-                    <h3>Numero:</h3>
-                    <input type="text" name="rua">
+                    <label for="numero">Complemento</label>
+                    <input type="text" name="num" id="complemento">
                 </form>
             </div>
 
@@ -59,27 +44,27 @@
         <div class="terceira-linha">
             <div>
                 <form>
-                    <h3>Bairro</h3>
-                    <input type="text" name="bairro">
+                    <label for="bairro">Bairro</label>
+                    <input type="text" name="bairro" id="bairro">
                 </form>
             </div>
             <div>
                 <form>
-                    <h3>Cidade</h3>
-                    <input type="text" name="cidade">
+                    <label for="cidae">Cidade</label>
+                    <input type="text" name="cidade" id="localidade">
                 </form>
             </div>
             <div>
                 <form>
-                    <h3>Estado</h3>
-                    <input type="text" name="estado">
+                    <label for="estado">Estado</label>
+                    <input type="text" name="estado" id="uf">
                 </form>
             </div>
         </div>
 
 
     </section>
-
+ <script src="main.js"></script>
 </body>
 
 </html>

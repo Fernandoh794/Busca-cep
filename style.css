@@ -1,65 +1,45 @@
 body {
     background-color: black;
     margin: 0;
-    
-    
-    
 }
-
 h3 {
     color: #F4C505
 }
-.tudo {
+.section {
     width: 1000px;
     height: 300px;
-    
-    margin-left: 150px;
-    
-    
-    
+    margin-left: 180px;
+    margin-right: auto;
 }
 input{
     border-radius: 5px;
     background-color: #F4C505;
+    font-size: large;
 }
 
-.nome {
-    width: 330px;
-    
-}
-.email {
-    width: 330px;
-    background-color: #F4C505;
-    
-}
-
-.linha1-cadastro  {
-    
-    display: flex;
-    justify-content: space-around;
-    margin: 0;
-    
-    
-}
+ 
 .segunda-linha {
-    
     display: flex;
-    justify-content: space-around;
-    margin: 0;
+    justify-content: space-between;  
+    margin-bottom: 40px;
 }
-
 .terceira-linha {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-    
-   
-    
-
 
 .cadastro {
     display: flex;
     justify-content: center;
-    margin: 0;
-    font-size: 35px;
+    font-size: 30px;
+    
+    
+}
+
+label{
+    color: #F4C505;
+}
+
+small {
+    color: #F4C505 ;
 }
